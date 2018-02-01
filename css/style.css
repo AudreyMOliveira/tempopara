@@ -120,6 +120,7 @@ footer{
        
     }
  .box.image img{
+     max-width: 100%;
      width: auto;
      height: auto;
      margin: 0 auto;
