@@ -1,0 +1,131 @@
+
+body{
+    background: #e0e0e0;
+}
+
+.header{
+    height: 60px;
+    background: #ccc;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    /*shadow*/
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+
+}
+.header .logo{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding:10px;
+    
+}
+.container{
+    padding-top: 60px;
+}
+.box{
+    margin-top: 20px;
+    padding:10px 20px;
+    background-color: #FFFFFF;
+}
+
+.img-thumb{
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.click-here{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #DA715E;
+    border: 2px solid #DA715E;
+    color: #FFFFFF;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+.box.video{
+    padding:0;
+}
+
+.box.video video{
+   margin: 0 auto;
+   display: block;
+   width: 100%;
+   height: 208px;
+}
+.box.quote{
+    border-right: 15px solid #E0E0E0;
+    border-left: 15px solid #E0E0E0;
+}
+
+.box.information{
+    min-height:190px;
+    padding: 15px 20px;
+    border-right: 20px solid #E0E0E0;
+    border-left: 15px solid #E0E0E0;
+}
+
+.box.information .box-image{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box.information .box-image img,
+.box.quote img{
+    width: 110px;
+}
+
+.box.image{
+    padding:0;
+}
+
+.box.image img{
+    width: 100%;
+    height: 190px;
+}
+
+footer{
+    background: #535957;
+    height: 70px;
+    margin-top: 30px;
+    padding:25px;
+}
+
+.inner-footer > p{
+   color: #FFFFFF;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 992px) {
+    .box.information .box-image img,
+    .box.quote img{
+       margin:0 auto;
+       display: block
+       
+    }
+ .box.image img{
+     width: auto;
+     height: auto;
+     margin: 0 auto;
+     display: block;
+ }
+ .box h3{
+     text-align: center;
+ }
+}
